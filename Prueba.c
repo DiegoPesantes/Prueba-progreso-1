@@ -9,17 +9,18 @@ int main(){
     int num=0;
     int res=0;
     int i;
-
+    int t=0;
     //Pedido de numero al usuario
 
-    printf("Ingrese un numero entero");
+    printf("Ingrese un numero entero: ");
     scanf("%d",&num);
 
-    for ( i = 0; i < 9; i++)
-    {
-        /* code */
-    }
+    //Busqueda del numero
     
+        t= num%28;
+    
+
+    printf("La suma de los digitos es: %d",t);
 
 return 0;
 
