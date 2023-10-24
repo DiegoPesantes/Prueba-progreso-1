@@ -8,7 +8,6 @@ int main(){
 
     int num=0;
     int res=0;
-    int i;
     int t=0;
     //Pedido de numero al usuario
 
@@ -19,8 +18,11 @@ int main(){
     
         t= num%28;
     
+    //Suma de los digitos
 
-    printf("La suma de los digitos es: %d",t);
+        res= t/2-1;
+
+    printf("La suma de los digitos es: %d",res);
 
 return 0;
 
